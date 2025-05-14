@@ -1,0 +1,113 @@
+.skills {
+    padding: 100px 80px 60px 80px;
+    background-color: #fbf5e9;
+  }
+  
+    .skills h1 span {
+        color: #ed7a07;
+    }
+
+  .skills h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: #333;
+    text-align: center;
+    animation: fadeInDown 1s ease;
+  }
+  
+  .all-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 40px;
+  }
+  
+  .skill-card {
+    background: white;
+    border: 1px solid #e4c887;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(237, 122, 7, 0.3);
+  }
+  
+  .skills-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  
+  .skills-image img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    animation: popIn 0.6s ease;
+  }
+  
+  .skill-card h2 {
+    font-size: 22px;
+    color: #c86736;
+    font-weight: 600;
+  }
+  
+  .skillset {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .label {
+    font-size: 16px;
+    color: #646363;
+    font-weight: 500;
+    flex: 1;
+  }
+  
+  .progress-bar-container {
+    flex: 3;
+    height: 10px;
+    margin: 0 10px;
+    background-color: #f0e0c0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background: #e8a541;
+    border-radius: 10px;
+    transition: width 1s ease;
+    
+  }
+
+
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes popIn {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

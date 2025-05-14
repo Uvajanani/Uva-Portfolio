@@ -1,0 +1,150 @@
+.projects {
+    margin: 150px 80px 30px 80px;
+}
+
+.projects h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects h1 span {
+    color: #ed7a07;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  cursor: pointer;
+  box-shadow: 5px 2px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.project-description {
+  padding-top: 10px;
+}
+
+.project-description h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.project-description h2 span {
+  color: #ed7a07;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.project-description p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.project-tech ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-tech li {
+  background: rgb(253, 246, 237);
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: rgb(26, 26, 26);
+  border: 1px solid #ecb57e;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  gap: 20px;
+}
+
+
+.project-buttons a {
+  text-decoration: none;
+}
+
+.project-buttons a button {
+  background: #ffffff;
+  color: #ed7a07;
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s ease;
+  border: 1px solid #ed7a07;
+}
+
+.project-buttons a button img {
+  margin-right: 10px;
+  width: 20%;
+}
+
+.project-buttons a button:hover {
+  background: #fae1c9;
+  color: black;
+  cursor: pointer;
+}
+
+.project-buttons a button:focus {
+  outline: none;
+}
+
+
+.pagination {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 4px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+
+
+.pagination .active {
+  background-color: #eb8d45;
+  color: white;
+}
+

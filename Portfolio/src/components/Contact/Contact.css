@@ -1,0 +1,183 @@
+.contact-container {
+  padding: 6rem;
+  background: #f9f9fb;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-heading span {
+  color: #ed7a07;
+}
+
+.contact-left a {
+    text-decoration: none;
+}
+
+.contact-socials h4 {
+    font-weight: 500;
+}
+
+
+.contact-content {
+  padding-top: 20px;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-left,
+.contact-right {
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  border-radius: 15px;
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+
+
+.contact-detail {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.contact-detail img {
+  width: 30px;
+  height: 30px;
+  background-color: #fcf2e7;
+  border-radius: 30%;
+}
+
+.contact-detail h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #3d3b3b;
+}
+
+.contact-detail p {
+  margin-top: 3px;
+  color: #666;
+  font-size: 14px;
+}
+
+.contact-socials {
+  margin-top: 1.8rem;
+}
+
+.contact-socials span {
+    color: #ed7a07;
+    font-weight: 600;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.9rem;
+}
+
+.contact-socials h4 {
+    font-size: 18px;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.contact-button {
+  background: #f29f4c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1.0rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  padding: 18px;
+  box-shadow: 0 5px 10px rgba(108, 79, 243, 0.2);
+}
+
+.contact-button .icon {
+  font-size: 1rem;
+}
+
+.contact-button  {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+  outline: 0.5px solid #efa55b;
+  border-color: #efa55b;
+}
+
+
+.contact-right label {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  background: #fdfdfd;
+}
+
+.send-button {
+  background: #f29f4c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(108, 79, 243, 0.2);
+}
+
+.contact-button:hover {
+    background-color: #f99129;
+}
+
+.send-button:hover {
+    background-color: #f99129;
+}
+
+.send-button .icon {
+  font-size: 1rem;
+}
