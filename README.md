@@ -1,4 +1,4 @@
-# 💼 Uvajanani Portfolio Website
+# 💼 Portfolio Website
 
 Welcome to my **personal portfolio website**, where I showcase my journey as a developer — including my **skills**, **projects**, **education**, **experience**, and more. Built with **React** and **CSS**, this responsive and interactive site uses smooth **animations** and **transitions** to enhance user experience.
 
