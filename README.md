@@ -31,41 +31,7 @@ Welcome to my **personal portfolio website**, where I showcase my journey as a d
 
 ---
 
-## 📂 Folder Structure
 
-src/
-├── assets/ # Icons, images
-├── components/
-│ ├── NavBar  # Navigation bar
-| | ├── NavBar.jsx 
-| | ├── NavBar.css
-│ ├── Header  # Home section
-| | ├── Header.jsx 
-| | ├── Header.css 
-│ ├── About  # About me section
-| | ├── About.jsx 
-| | ├── About.css 
-│ ├── Skills  # Skills section
-| | ├── Skills.jsx 
-| | ├── Skills.css 
-│ ├── EducationExperience  # Education and Experience section
-| | ├── EducationExperience.jsx 
-| | ├── EducationExperience.css 
-│ ├── Projects  # Projects listing
-| | ├── Projects.jsx 
-| | ├── Projects.css 
-│ ├── Contact  # Contact form & social links
-| | ├── Contact.jsx 
-| | ├── Contact.css
-│ ├── Footer  # Footer section
-| | ├── Footer.jsx 
-| | ├── Footer.css
-├── App.jsx
-├── main.jsx
-└── index.css 
-
-
----
 
 ## 📬 Contact Form Integration
 
